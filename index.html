@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify By Me</title>
+    <link rel="icon" type="image/png" href="logo spotify.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="left">
+        <div class="first">
+          <div class="logo"><img src="spotifylogo.png" alt="" /></div>
+          <div id="homebtn"><img src="house-solid.svg" alt="" />Home</div>
+          <div id="searchbtn"><img src="search.svg" alt="" />Search</div>
+        </div>
+        <div class="second">
+          <div id="playlistheading">
+            <div>
+              <img src="img__1_.png" alt="" />
+              <span>Your Library</span>
+            </div>
+            <img src="plus.svg" alt="" id="plus" />
+          </div>
+          <ul id="leftplaylist"></ul>
+          <button id="lang"><img src="globe.svg" alt="" />English</button>
+        </div>
+      </div>
+      <div class="right">
+        <div class="header">
+          <div class="arrow">
+            <img src="hamburger.svg" alt="" id="hamburger">
+            <img src="leftarrow.svg" alt="" id="leftarrow" />
+            <img src="rightarrow.svg" alt="" id="rightarrow" />
+          </div>
+          <div class="login">
+            <button id="signup">Sign Up</button>
+            <button id="login">Log In</button>
+          </div>
+        </div>
+        <div class="artists">
+          <div class="art">
+            <span id="Popularartist">Popular artists</span>
+            <span id="showall">Show all</span>
+          </div>
+          <div class="spotifyplaylist1">
+            <!-- <div class="card">
+              <img src="imgs/img1.jpeg" alt="" />
+              <button class="playbtn1">
+                <img src="play.svg" alt="" class="play" />
+              </button>
+              <h4>Pritam</h4>
+              <span>Artist</span>
+            </div> -->
+          </div>
+        </div>
+        <div class="rightlinks">
+          <div class="links1">
+            <h3>Company</h3>
+            <a>About</a>
+            <a>Jobs</a>
+            <a>For the Record</a>
+          </div>
+          <div class="links1">
+            <h3>Communities</h3>
+            <a>For Artists</a>
+            <a>Devolepor</a>
+            <a>Adevertising</a>
+            <a>Investors</a>
+            <a>Vendors</a>
+          </div>
+          <div class="links1">
+            <h3>Useful links</h3>
+            <a>Support</a>
+            <a>Free Mobile App</a>
+          </div>
+          <div class="links1 links2">
+            <h3>Spotify Plans</h3>
+            <a>Premium Individual</a>
+            <a>Premium Duo</a>
+            <a>Premium Family</a>
+            <a>Premium Student</a>
+            <a>Spotify Free</a>
+          </div>
+          <div class="socialmedia">
+            <img src="insta.svg" alt="ffrf" id="insta" />
+            <img src="facebook.svg" alt="ffrf" id="insta" />
+            <img src="X.svg" alt="ffrf" id="insta" />
+          </div>
+        </div>
+      </div>
+     
+      <div class="playsongbox">
+        <!-- <div class="move"></div> -->
+        <div class="songinfo">Select Your Song First</div>
+        <div class="songbut">
+          <img src="backward-step-solid.svg" alt="" id="backsong" />
+          <img src="pause-line.svg" alt="" id="playsong" />
+          <img src="forward-step-solid.svg" alt="" id="forwardsong" />
+        </div>
+        <div class="seekbar"><div class="circle"></div></div>
+        <div class="songtime">4:31/4:31</div>
+      </div>
+      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
